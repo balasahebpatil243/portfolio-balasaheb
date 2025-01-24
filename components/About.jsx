@@ -48,7 +48,7 @@ const About = ({isDarkMode}) => {
                 initial={{opacity: 0}}
                 whileInView={{opacity: 1}}
                 transition={{duration: 0.8, delay: 1}}
-                className='grid grid-cols-auto sm:grid-cols-3 gap-6 max-w-2xl'>
+                className='grid grid-cols-auto sm:grid-cols-auto gap-6 max-w-2xl'>
                     {infoList.map(({icon, iconDark, title, description},index)=>(
                         <motion.li 
                         whileHover={{scale: 1.05}}
@@ -72,11 +72,11 @@ const About = ({isDarkMode}) => {
                 initial={{opacity: 0}}
                 whileInView={{opacity: 1}}
                 transition={{delay: 1.5, duration: 0.6}}
-                className='grid grid-cols-auto flex items-center gap-3 sm:gap-5'>
+                className='flex items-center gap-3 sm:gap-5'>
                     {toolsData.map((tool, index)=>(
                         <motion.li 
                         whileHover={{scale: 1.1}}
-                        className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500' key={index}>
+                        className='grid grid-cols-auto flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500' key={index}>
                             <Image src={tool} alt='Tool' className='w-5 sm:w-7'/>
                         </motion.li>
                     ))}
