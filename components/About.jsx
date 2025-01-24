@@ -38,7 +38,7 @@ const About = ({isDarkMode}) => {
         whileInView={{opacity: 1}}
         transition={{duration: 0.6, delay: 0.8}}
         className='flex-1'>
-            <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>I am a dedicated MCA graduate with expertise in web development and data analytics. 
+            <p className='max-w-2xl mx-auto font-Ovo'>I am a dedicated MCA graduate with expertise in web development and data analytics. 
                 With proficiency in modern technologies like Java, Python, HTML, CSS, SQL, Numpy, Pandas, Seaborn, Matplotlib and Power BI, 
                 I bring a blend of technical skills and creative problem-solving to every project.
                  I’m passionate about building responsive web applications and uncovering actionable insights from data. 
@@ -48,7 +48,7 @@ const About = ({isDarkMode}) => {
                 initial={{opacity: 0}}
                 whileInView={{opacity: 1}}
                 transition={{duration: 0.8, delay: 1}}
-                className='grid grid-cols-auto sm:grid-cols-auto gap-6 max-w-2xl'>
+                className='grid grid-cols-auto sm:grid-cols-4 gap-6 max-w-2xl'>
                     {infoList.map(({icon, iconDark, title, description},index)=>(
                         <motion.li 
                         whileHover={{scale: 1.05}}
