@@ -55,7 +55,7 @@ const About = ({ isDarkMode }) => {
         >
           <p className="mb-6 text-sm sm:text-base lg:text-lg max-w-2xl font-Ovo leading-relaxed text-justify">
             I am a dedicated MCA graduate with expertise in web development and data analytics.
-            With proficiency in modern technologies like Java, Python, HTML, CSS, SQL, Numpy, Pandas, Seaborn, Matplotlib, and Power BI,
+            With proficiency in modern technologies like Java, Python, HTML, CSS, SQL, Numpy, Pandas, Seaborn, Matplotlib, and Power BI.
             I bring a blend of technical skills and creative problem-solving to every project.
             I’m passionate about building responsive web applications and uncovering actionable insights from data.
             My journey is driven by a commitment to learning, innovation, and delivering solutions that make a difference.
