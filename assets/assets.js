@@ -131,7 +131,7 @@ export const expertiseData = [
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Technical Skills', description: 'Java, Python, HTML, CSS, JavaScript, SQL, Data Analytics' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Master of Computer Applications (MCA)\n CGPA - 8.91' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Master of Computer Applications (MCA)\n CGPA - 8.98' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 4 projects' }
 ];
 
