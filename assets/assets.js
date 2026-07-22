@@ -56,7 +56,7 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import Power_BI from './Power_BI.png';
 import MS_Excel from './Excel.png';
-import Tablue_icon from './Tablue.png';
+import Tablue_icon from './Tableu.png';
 
 export const assets = {
     user_image,
