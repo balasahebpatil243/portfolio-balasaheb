@@ -54,6 +54,7 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import Power_BI from './Power_BI.png';
 
 export const assets = {
     user_image,
@@ -136,5 +137,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.html_img, assets.css_img, assets.js_img, assets.sql_img, assets.mongodb, assets.pandas_img, assets.numpy_img, assets.matplotlib_img
+    assets.vscode, assets.Power_BI, assets.css_img, assets.js_img, assets.sql_img, assets.mongodb, assets.pandas_img, assets.numpy_img, assets.matplotlib_img
 ];
