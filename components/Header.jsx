@@ -20,13 +20,14 @@ const Header = () => {
          initial={{y: -30, opacity: 0}}
          whileInView={{y: 0, opacity: 1}}
          transition={{duration: 0.6, delay: 0.3}}
-        className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>Aspiring Software Developer From Bangalore, India.</motion.h1>
+        className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>Data Analyst From Bangalore, India.</motion.h1>
         <motion.p 
          initial={{opacity: 0}}
          whileInView={{opacity: 1}}
          transition={{duration: 0.6, delay: 0.7}}
-        className='max-w-2xl mx-auto font-Ovo'>I am an MCA graduate skilled in data analytics and web development. I enjoy turning data into insights and building responsive, user-focused web applications. 
-            My projects reflect a strong problem-solving mindset and adaptability to dynamic environments.</motion.p>
+        className='max-w-2xl mx-auto font-Ovo'>MCA graduate with expertise in Data Analytics, SQL, Python, Excel, and Power BI. 
+          Skilled in data cleaning, visualization, and statistical analysis to deliver actionable insights and support data-driven decision-making. 
+          Strong analytical and problem-solving abilities with a passion for transforming data into meaningful business solutions.</motion.p>
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
                 <motion.a 
                  initial={{y: 30, opacity: 0}}
