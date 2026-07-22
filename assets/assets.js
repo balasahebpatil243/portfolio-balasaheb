@@ -55,6 +55,8 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import Power_BI from './Power_BI.png';
+import MS_Excel from './Excel.png';
+import Tablue_icon from './Tablue.png';
 
 export const assets = {
     user_image,
@@ -113,7 +115,10 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    Power_BI,
+    MS_Excel,
+    Tablue_icon
 };
 
 export const workData = [
@@ -137,5 +142,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.Power_BI, assets.css_img, assets.js_img, assets.sql_img, assets.mongodb, assets.pandas_img, assets.numpy_img, assets.matplotlib_img
+    assets.vscode, assets.Power_BI, assets.Tablue_icon, assets.MS_Excel, assets.sql_img, assets.mongodb, assets.pandas_img, assets.numpy_img, assets.matplotlib_img
 ];
