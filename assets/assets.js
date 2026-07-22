@@ -55,8 +55,8 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import Power_BI from './Power_BI.png';
-import MS_Excel from './Excel.png';
-import Tablue_icon from './Tableu.png';
+import ms_excel from './Excel.png';
+import tableu_icon from './Tableu.png';
 
 export const assets = {
     user_image,
@@ -142,5 +142,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.Power_BI, assets.Tablue_icon, assets.MS_Excel, assets.sql_img, assets.mongodb, assets.pandas_img, assets.numpy_img, assets.matplotlib_img
+    assets.vscode, assets.Power_BI, assets.tableu_icon, assets.ms_excel, assets.sql_img, assets.mongodb, assets.pandas_img, assets.numpy_img, assets.matplotlib_img
 ];
